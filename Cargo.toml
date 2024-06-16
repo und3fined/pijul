@@ -1,0 +1,11 @@
+[workspace]
+members = [
+  "pijul",
+  "libpijul",
+  "pijul-config",
+  "pijul-identity",
+  "pijul-interaction",
+  "pijul-macros",
+  "pijul-remote",
+  "pijul-repository",
+]
