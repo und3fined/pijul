@@ -1988,7 +1988,7 @@ dependencies = [
  "parking_lot",
  "path-slash",
  "pbkdf2 0.9.0",
- "pijul-macros 0.5.0 (registry+https://github.com/rust-lang/crates.io-index)",
+ "pijul-macros",
  "quickcheck",
  "quickcheck_macros",
  "rand 0.8.5",
@@ -2653,18 +2653,6 @@ dependencies = [
 [[package]]
 name = "pijul-macros"
 version = "0.5.0"
-dependencies = [
- "proc-macro2",
- "quote",
- "regex",
- "syn 1.0.109",
-]
-
-[[package]]
-name = "pijul-macros"
-version = "0.5.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "c2b3743cd80b65d40b9f20b6575016f76d4221754866316ffbf7d7b0d58e7064"
 dependencies = [
  "proc-macro2",
  "quote",
