@@ -68,7 +68,12 @@ fn bin_diff_test() -> Result<(), anyhow::Error> {
             change: id,
             pos: ChangePosition(1u64.into()),
         };
-        let mut ret = retrieve(&*txn.read(), txn.read().graph(&*channel.read()), vertex)?;
+        let mut ret = retrieve(
+            &*txn.read(),
+            txn.read().graph(&*channel.read()),
+            vertex,
+            false,
+        )?;
         rec.lock().diff(
             &changes,
             &txn,
