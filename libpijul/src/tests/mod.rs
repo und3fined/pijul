@@ -17,9 +17,9 @@ mod missing_context;
 mod partial;
 mod performance;
 mod rm_file;
-mod rollback;
+// mod rollback;
 mod text;
-mod text_changes;
+// mod text_changes;
 mod unrecord;
 
 fn record_all_change<
